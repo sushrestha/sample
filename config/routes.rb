@@ -8,6 +8,14 @@ Rails.application.routes.draw do
   get    'help'    => 'static_pages#help'
   get    'about'   => 'static_pages#about'
   get    'contact' => 'static_pages#contact'
+# domain  url          controller_name method_name
+
+# Activity 1 : 28th Jan 2015
+  get    'sshrsth1' => 'my_static_pages#sshrsth1'
+
+
+
+
   get    'signup'  => 'users#new'
   get    'login'   => 'sessions#new'
   post   'login'   => 'sessions#create'
